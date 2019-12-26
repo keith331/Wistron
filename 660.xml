@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='C:\Wistron_TDC\TDCXSL.xsl'?>
+<TestResults>
+<OverallResult>
+<Result>Pass</Result>
+<ErrorCode></ErrorCode>
+<LogErrorMessage></LogErrorMessage>
+<ErrorTestName></ErrorTestName>
+<ErrorFullTestName></ErrorFullTestName>
+<ErrorDetails></ErrorDetails>
+</OverallResult>
+<UnitSerialNumber>1111111</UnitSerialNumber>
+<StartDate>2019-11-25T17:56:09.472+08:00</StartDate>
+<StopDate>2019-11-25T17:57:00.780+08:00</StopDate>
+<TestCycleTime>51.000</TestCycleTime>
+<MoNumber></MoNumber>
+<ModelName>Galactus</ModelName>
+<BOMVersion></BOMVersion>
+<User></User>
+<ComputerName>DESKTOP-1NPB4D5</ComputerName>
+<StationType>DP-2</StationType>
+<StationId></StationId>
+<StationLine></StationLine>
+<TestBundleVersion>Galactus_SWEEP_20191015</TestBundleVersion>
+<DutSwVersion></DutSwVersion>
+<FlowCheckResults>False</FlowCheckResults>
+<ProberUseTimes>0</ProberUseTimes>
+<CameraVideo>False</CameraVideo>
+<GRRTest>True</GRRTest>
+<StrainGageTest>False</StrainGageTest>
+<RFCableLoss>False</RFCableLoss>
+<CoFixtureTest>False</CoFixtureTest>
+<CameraCal>False</CameraCal>
+<AcousticCal>False</AcousticCal>
+<XMLVersion>V1.0.6</XMLVersion>
+<TestDatas>
+<TestData Name="ADB Version" Status="Pass" TestTime="1.516">
+<Measurements>
+<MeasurementData Name="ADB Version" Status="Pass" Result="" LowerLimit="" UpperLimit="" Units="-" CompType="LOG" LogCount="0" LogTime="2019-11-25T17:56:14.371+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="BMIC_Frequency" Status="Pass" TestTime="25.156">
+<Measurements>
+<MeasurementData Name="8000" Status="Pass" Result="7996.960" LowerLimit="0.000" UpperLimit="8888.000" Units="Hz" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:56:41.049+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="BMIC_Sensitivity" Status="Pass" TestTime="25.156">
+<Measurements>
+<MeasurementData Name="8000" Status="Pass" Result="-32.710" LowerLimit="-88888.000" UpperLimit="88888.000" Units="dBV" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:56:41.051+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="BMIC_THD" Status="Pass" TestTime="25.156">
+<Measurements>
+<MeasurementData Name="8000" Status="Pass" Result="0.220" LowerLimit="0.000" UpperLimit="88888.000" Units="%" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:56:41.054+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="BMIC_Frequency" Status="Pass" TestTime="25.156">
+<Measurements>
+<MeasurementData Name="6350" Status="Pass" Result="6347.070" LowerLimit="6335.000" UpperLimit="6365.000" Units="Hz" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:56:41.056+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="BMIC_Sensitivity" Status="Pass" TestTime="25.171">
+<Measurements>
+<MeasurementData Name="6350" Status="Pass" Result="-32.670" LowerLimit="-37.990" UpperLimit="-27.990" Units="dBV" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:56:41.059+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="BMIC_THD" Status="Pass" TestTime="25.171">
+<Measurements>
+<MeasurementData Name="6350" Status="Pass" Result="0.280" LowerLimit="0.000" UpperLimit="7.000" Units="%" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:56:41.061+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="BMIC_Frequency" Status="Pass" TestTime="25.171">
+<Measurements>
+<MeasurementData Name="5040" Status="Pass" Result="5038.000" LowerLimit="5025.000" UpperLimit="5055.000" Units="Hz" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:56:41.064+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="BMIC_Sensitivity" Status="Pass" TestTime="25.171">
+<Measurements>
+<MeasurementData Name="5040" Status="Pass" Result="-43.670" LowerLimit="-48.750" UpperLimit="-38.750" Units="dBV" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:56:41.070+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="BMIC_THD" Status="Pass" TestTime="25.171">
+<Measurements>
+<MeasurementData Name="5040" Status="Pass" Result="0.110" LowerLimit="0.000" UpperLimit="7.000" Units="%" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:56:41.072+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="BMIC_Frequency" Status="Pass" TestTime="25.187">
+<Measurements>
+<MeasurementData Name="4000" Status="Pass" Result="3998.250" LowerLimit="3985.000" UpperLimit="4015.000" Units="Hz" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:56:41.075+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="BMIC_Sensitivity" Status="Pass" TestTime="25.187">
+<Measurements>
+<MeasurementData Name="4000" Status="Pass" Result="-40.750" LowerLimit="-44.550" UpperLimit="-34.550" Units="dBV" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:56:41.077+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="BMIC_THD" Status="Pass" TestTime="25.187">
+<Measurements>
+<MeasurementData Name="4000" Status="Pass" Result="0.160" LowerLimit="0.000" UpperLimit="7.000" Units="%" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:56:41.079+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="BMIC_Frequency" Status="Pass" TestTime="25.187">
+<Measurements>
+<MeasurementData Name="3175" Status="Pass" Result="3173.680" LowerLimit="3160.000" UpperLimit="3190.000" Units="Hz" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:56:41.083+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="BMIC_Sensitivity" Status="Pass" TestTime="25.187">
+<Measurements>
+<MeasurementData Name="3175" Status="Pass" Result="-26.310" LowerLimit="-30.780" UpperLimit="-20.780" Units="dBV" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:56:41.084+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="BMIC_THD" Status="Pass" TestTime="25.187">
+<Measurements>
+<MeasurementData Name="3175" Status="Pass" Result="0.350" LowerLimit="0.000" UpperLimit="7.000" Units="%" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:56:41.086+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="BMIC_Frequency" Status="Pass" TestTime="25.187">
+<Measurements>
+<MeasurementData Name="2520" Status="Pass" Result="2518.910" LowerLimit="2505.000" UpperLimit="2535.000" Units="Hz" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:56:41.087+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="BMIC_Sensitivity" Status="Pass" TestTime="25.187">
+<Measurements>
+<MeasurementData Name="2520" Status="Pass" Result="-38.710" LowerLimit="-42.940" UpperLimit="-32.940" Units="dBV" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:56:41.088+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="BMIC_THD" Status="Pass" TestTime="25.203">
+<Measurements>
+<MeasurementData Name="2520" Status="Pass" Result="0.110" LowerLimit="0.000" UpperLimit="7.000" Units="%" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:56:41.089+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="BMIC_Frequency" Status="Pass" TestTime="25.203">
+<Measurements>
+<MeasurementData Name="2000" Status="Pass" Result="1999.130" LowerLimit="1985.000" UpperLimit="2015.000" Units="Hz" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:56:41.090+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="BMIC_Sensitivity" Status="Pass" TestTime="25.203">
+<Measurements>
+<MeasurementData Name="2000" Status="Pass" Result="-41.820" LowerLimit="-45.750" UpperLimit="-35.750" Units="dBV" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:56:41.091+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="BMIC_THD" Status="Pass" TestTime="25.203">
+<Measurements>
+<MeasurementData Name="2000" Status="Pass" Result="0.130" LowerLimit="0.000" UpperLimit="7.000" Units="%" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:56:41.091+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="BMIC_Frequency" Status="Pass" TestTime="25.203">
+<Measurements>
+<MeasurementData Name="1587" Status="Pass" Result="1586.330" LowerLimit="1572.000" UpperLimit="1602.000" Units="Hz" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:56:41.092+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="BMIC_Sensitivity" Status="Pass" TestTime="25.203">
+<Measurements>
+<MeasurementData Name="1587" Status="Pass" Result="-40.340" LowerLimit="-44.650" UpperLimit="-34.650" Units="dBV" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:56:41.093+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="BMIC_THD" Status="Pass" TestTime="25.203">
+<Measurements>
+<MeasurementData Name="1587" Status="Pass" Result="0.070" LowerLimit="0.000" UpperLimit="7.000" Units="%" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:56:41.094+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="BMIC_Frequency" Status="Pass" TestTime="25.203">
+<Measurements>
+<MeasurementData Name="1260" Status="Pass" Result="1259.450" LowerLimit="1245.000" UpperLimit="1275.000" Units="Hz" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:56:41.096+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="BMIC_Sensitivity" Status="Pass" TestTime="25.203">
+<Measurements>
+<MeasurementData Name="1260" Status="Pass" Result="-40.120" LowerLimit="-44.780" UpperLimit="-34.780" Units="dBV" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:56:41.097+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="BMIC_THD" Status="Pass" TestTime="25.203">
+<Measurements>
+<MeasurementData Name="1260" Status="Pass" Result="0.080" LowerLimit="0.000" UpperLimit="7.000" Units="%" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:56:41.098+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="BMIC_Frequency" Status="Pass" TestTime="25.203">
+<Measurements>
+<MeasurementData Name="1000" Status="Pass" Result="999.580" LowerLimit="985.000" UpperLimit="1015.000" Units="Hz" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:56:41.099+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="BMIC_Sensitivity" Status="Pass" TestTime="25.203">
+<Measurements>
+<MeasurementData Name="1000" Status="Pass" Result="-37.840" LowerLimit="-42.270" UpperLimit="-32.270" Units="dBV" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:56:41.100+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="BMIC_THD" Status="Pass" TestTime="25.203">
+<Measurements>
+<MeasurementData Name="1000" Status="Pass" Result="0.120" LowerLimit="0.000" UpperLimit="7.000" Units="%" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:56:41.101+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="BMIC_Frequency" Status="Pass" TestTime="25.203">
+<Measurements>
+<MeasurementData Name=" 794" Status="Pass" Result="793.660" LowerLimit="779.000" UpperLimit="809.000" Units="Hz" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:56:41.102+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="BMIC_Sensitivity" Status="Pass" TestTime="25.218">
+<Measurements>
+<MeasurementData Name=" 794" Status="Pass" Result="-30.880" LowerLimit="-35.910" UpperLimit="-25.910" Units="dBV" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:56:41.103+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="BMIC_THD" Status="Pass" TestTime="25.218">
+<Measurements>
+<MeasurementData Name=" 794" Status="Pass" Result="0.240" LowerLimit="0.000" UpperLimit="10.000" Units="%" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:56:41.104+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="BMIC_Frequency" Status="Pass" TestTime="25.218">
+<Measurements>
+<MeasurementData Name=" 630" Status="Pass" Result="629.730" LowerLimit="615.000" UpperLimit="645.000" Units="Hz" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:56:41.105+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="BMIC_Sensitivity" Status="Pass" TestTime="25.218">
+<Measurements>
+<MeasurementData Name=" 630" Status="Pass" Result="-35.190" LowerLimit="-40.430" UpperLimit="-30.430" Units="dBV" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:56:41.106+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="BMIC_THD" Status="Pass" TestTime="25.218">
+<Measurements>
+<MeasurementData Name=" 630" Status="Pass" Result="0.160" LowerLimit="0.000" UpperLimit="10.000" Units="%" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:56:41.107+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="BMIC_Frequency" Status="Pass" TestTime="25.218">
+<Measurements>
+<MeasurementData Name=" 500" Status="Pass" Result="499.780" LowerLimit="485.000" UpperLimit="515.000" Units="Hz" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:56:41.108+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="BMIC_Sensitivity" Status="Pass" TestTime="25.218">
+<Measurements>
+<MeasurementData Name=" 500" Status="Pass" Result="-38.710" LowerLimit="-44.810" UpperLimit="-34.810" Units="dBV" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:56:41.109+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="BMIC_THD" Status="Pass" TestTime="25.218">
+<Measurements>
+<MeasurementData Name=" 500" Status="Pass" Result="0.070" LowerLimit="0.000" UpperLimit="10.000" Units="%" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:56:41.110+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="BMIC_Frequency" Status="Pass" TestTime="25.218">
+<Measurements>
+<MeasurementData Name=" 397" Status="Pass" Result="396.830" LowerLimit="382.000" UpperLimit="412.000" Units="Hz" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:56:41.110+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="BMIC_Sensitivity" Status="Pass" TestTime="25.218">
+<Measurements>
+<MeasurementData Name=" 397" Status="Pass" Result="-38.350" LowerLimit="-43.800" UpperLimit="-33.800" Units="dBV" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:56:41.111+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="BMIC_THD" Status="Pass" TestTime="25.218">
+<Measurements>
+<MeasurementData Name=" 397" Status="Pass" Result="0.230" LowerLimit="0.000" UpperLimit="10.000" Units="%" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:56:41.112+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="BMIC_Frequency" Status="Pass" TestTime="25.218">
+<Measurements>
+<MeasurementData Name=" 315" Status="Pass" Result="314.860" LowerLimit="300.000" UpperLimit="330.000" Units="Hz" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:56:41.113+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="BMIC_Sensitivity" Status="Pass" TestTime="25.218">
+<Measurements>
+<MeasurementData Name=" 315" Status="Pass" Result="-38.710" LowerLimit="-44.760" UpperLimit="-34.760" Units="dBV" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:56:41.115+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="BMIC_THD" Status="Pass" TestTime="25.218">
+<Measurements>
+<MeasurementData Name=" 315" Status="Pass" Result="0.330" LowerLimit="0.000" UpperLimit="10.000" Units="%" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:56:41.116+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="BMIC_Frequency" Status="Pass" TestTime="25.218">
+<Measurements>
+<MeasurementData Name=" 250" Status="Pass" Result="1.020" LowerLimit="-8888.000" UpperLimit="8888.000" Units="Hz" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:56:41.117+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="BMIC_Sensitivity" Status="Pass" TestTime="25.218">
+<Measurements>
+<MeasurementData Name=" 250" Status="Pass" Result="-169.590" LowerLimit="-8888.000" UpperLimit="8888.000" Units="dBV" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:56:41.118+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="BMIC_THD" Status="Pass" TestTime="25.234">
+<Measurements>
+<MeasurementData Name=" 250" Status="Pass" Result="159.970" LowerLimit="-8888.000" UpperLimit="8888.000" Units="%" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:56:41.119+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="SPK_Frequency" Status="Pass" TestTime="18.578">
+<Measurements>
+<MeasurementData Name="8000" Status="Pass" Result="8033.400" LowerLimit="-88888.000" UpperLimit="88888.000" Units="Hz" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:57:00.717+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="SPK_SPL" Status="Pass" TestTime="18.578">
+<Measurements>
+<MeasurementData Name="8000" Status="Pass" Result="105.580" LowerLimit="-88888.000" UpperLimit="88888.000" Units="dBSPL" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:57:00.720+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="SPK_THD" Status="Pass" TestTime="18.578">
+<Measurements>
+<MeasurementData Name="8000" Status="Pass" Result="0.810" LowerLimit="0.000" UpperLimit="88888.000" Units="%" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:57:00.722+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="SPK_Frequency" Status="Pass" TestTime="18.578">
+<Measurements>
+<MeasurementData Name="6350" Status="Pass" Result="6322.730" LowerLimit="-88888.000" UpperLimit="88888.000" Units="Hz" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:57:00.723+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="SPK_SPL" Status="Pass" TestTime="18.578">
+<Measurements>
+<MeasurementData Name="6350" Status="Pass" Result="105.030" LowerLimit="-88888.000" UpperLimit="88888.000" Units="dBSPL" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:57:00.724+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="SPK_THD" Status="Pass" TestTime="18.578">
+<Measurements>
+<MeasurementData Name="6350" Status="Pass" Result="4.090" LowerLimit="0.000" UpperLimit="88888.000" Units="%" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:57:00.725+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="SPK_Frequency" Status="Pass" TestTime="18.578">
+<Measurements>
+<MeasurementData Name="5040" Status="Pass" Result="5015.870" LowerLimit="4975.000" UpperLimit="5105.000" Units="Hz" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:57:00.726+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="SPK_SPL" Status="Pass" TestTime="18.578">
+<Measurements>
+<MeasurementData Name="5040" Status="Pass" Result="109.890" LowerLimit="101.600" UpperLimit="114.600" Units="dBSPL" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:57:00.727+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="SPK_THD" Status="Pass" TestTime="18.578">
+<Measurements>
+<MeasurementData Name="5040" Status="Pass" Result="0.290" LowerLimit="0.000" UpperLimit="40.000" Units="%" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:57:00.728+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="SPK_Frequency" Status="Pass" TestTime="18.593">
+<Measurements>
+<MeasurementData Name="4000" Status="Pass" Result="4011.920" LowerLimit="3935.000" UpperLimit="4065.000" Units="Hz" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:57:00.729+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="SPK_SPL" Status="Pass" TestTime="18.593">
+<Measurements>
+<MeasurementData Name="4000" Status="Pass" Result="120.530" LowerLimit="111.100" UpperLimit="123.100" Units="dBSPL" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:57:00.730+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="SPK_THD" Status="Pass" TestTime="18.593">
+<Measurements>
+<MeasurementData Name="4000" Status="Pass" Result="0.560" LowerLimit="0.000" UpperLimit="40.000" Units="%" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:57:00.731+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="SPK_Frequency" Status="Pass" TestTime="18.593">
+<Measurements>
+<MeasurementData Name="3175" Status="Pass" Result="3160.960" LowerLimit="3110.000" UpperLimit="3240.000" Units="Hz" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:57:00.733+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="SPK_SPL" Status="Pass" TestTime="18.593">
+<Measurements>
+<MeasurementData Name="3175" Status="Pass" Result="111.390" LowerLimit="102.800" UpperLimit="117.600" Units="dBSPL" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:57:00.734+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="SPK_THD" Status="Pass" TestTime="18.593">
+<Measurements>
+<MeasurementData Name="3175" Status="Pass" Result="0.720" LowerLimit="0.000" UpperLimit="30.000" Units="%" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:57:00.735+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="SPK_Frequency" Status="Pass" TestTime="18.593">
+<Measurements>
+<MeasurementData Name="2520" Status="Pass" Result="2507.800" LowerLimit="2455.000" UpperLimit="2585.000" Units="Hz" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:57:00.736+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="SPK_SPL" Status="Pass" TestTime="18.593">
+<Measurements>
+<MeasurementData Name="2520" Status="Pass" Result="119.970" LowerLimit="110.900" UpperLimit="122.900" Units="dBSPL" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:57:00.737+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="SPK_THD" Status="Pass" TestTime="18.593">
+<Measurements>
+<MeasurementData Name="2520" Status="Pass" Result="1.010" LowerLimit="0.000" UpperLimit="30.000" Units="%" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:57:00.738+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="SPK_Frequency" Status="Pass" TestTime="18.593">
+<Measurements>
+<MeasurementData Name="2000" Status="Pass" Result="2006.850" LowerLimit="1935.000" UpperLimit="2065.000" Units="Hz" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:57:00.739+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="SPK_SPL" Status="Pass" TestTime="18.593">
+<Measurements>
+<MeasurementData Name="2000" Status="Pass" Result="116.650" LowerLimit="108.200" UpperLimit="120.200" Units="dBSPL" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:57:00.740+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="SPK_THD" Status="Pass" TestTime="18.593">
+<Measurements>
+<MeasurementData Name="2000" Status="Pass" Result="0.860" LowerLimit="0.000" UpperLimit="15.000" Units="%" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:57:00.741+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="SPK_Frequency" Status="Pass" TestTime="18.593">
+<Measurements>
+<MeasurementData Name="1587" Status="Pass" Result="1605.640" LowerLimit="1522.000" UpperLimit="1652.000" Units="Hz" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:57:00.742+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="SPK_SPL" Status="Pass" TestTime="18.593">
+<Measurements>
+<MeasurementData Name="1587" Status="Pass" Result="110.520" LowerLimit="102.200" UpperLimit="114.200" Units="dBSPL" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:57:00.743+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="SPK_THD" Status="Pass" TestTime="18.593">
+<Measurements>
+<MeasurementData Name="1587" Status="Pass" Result="0.740" LowerLimit="0.000" UpperLimit="15.000" Units="%" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:57:00.744+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="SPK_Frequency" Status="Pass" TestTime="18.609">
+<Measurements>
+<MeasurementData Name="1260" Status="Pass" Result="1254.410" LowerLimit="1195.000" UpperLimit="1325.000" Units="Hz" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:57:00.745+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="SPK_SPL" Status="Pass" TestTime="18.609">
+<Measurements>
+<MeasurementData Name="1260" Status="Pass" Result="108.860" LowerLimit="101.200" UpperLimit="113.200" Units="dBSPL" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:57:00.746+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="SPK_THD" Status="Pass" TestTime="18.609">
+<Measurements>
+<MeasurementData Name="1260" Status="Pass" Result="2.130" LowerLimit="0.000" UpperLimit="15.000" Units="%" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:57:00.747+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="SPK_Frequency" Status="Pass" TestTime="18.609">
+<Measurements>
+<MeasurementData Name="1000" Status="Pass" Result="1003.420" LowerLimit="935.000" UpperLimit="1065.000" Units="Hz" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:57:00.749+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="SPK_SPL" Status="Pass" TestTime="18.609">
+<Measurements>
+<MeasurementData Name="1000" Status="Pass" Result="108.830" LowerLimit="100.800" UpperLimit="112.800" Units="dBSPL" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:57:00.750+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="SPK_THD" Status="Pass" TestTime="18.609">
+<Measurements>
+<MeasurementData Name="1000" Status="Pass" Result="3.260" LowerLimit="0.000" UpperLimit="15.000" Units="%" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:57:00.751+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="SPK_Frequency" Status="Pass" TestTime="18.609">
+<Measurements>
+<MeasurementData Name=" 794" Status="Pass" Result="802.650" LowerLimit="729.000" UpperLimit="859.000" Units="Hz" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:57:00.752+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="SPK_SPL" Status="Pass" TestTime="18.609">
+<Measurements>
+<MeasurementData Name=" 794" Status="Pass" Result="112.630" LowerLimit="104.800" UpperLimit="116.800" Units="dBSPL" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:57:00.753+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="SPK_THD" Status="Pass" TestTime="18.609">
+<Measurements>
+<MeasurementData Name=" 794" Status="Pass" Result="3.430" LowerLimit="0.000" UpperLimit="30.000" Units="%" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:57:00.754+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="SPK_Frequency" Status="Pass" TestTime="18.609">
+<Measurements>
+<MeasurementData Name=" 630" Status="Pass" Result="632.050" LowerLimit="565.000" UpperLimit="695.000" Units="Hz" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:57:00.754+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="SPK_SPL" Status="Pass" TestTime="18.609">
+<Measurements>
+<MeasurementData Name=" 630" Status="Pass" Result="111.140" LowerLimit="103.600" UpperLimit="115.600" Units="dBSPL" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:57:00.755+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="SPK_THD" Status="Pass" TestTime="18.609">
+<Measurements>
+<MeasurementData Name=" 630" Status="Pass" Result="3.360" LowerLimit="0.000" UpperLimit="35.000" Units="%" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:57:00.756+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="SPK_Frequency" Status="Pass" TestTime="18.609">
+<Measurements>
+<MeasurementData Name=" 500" Status="Pass" Result="501.660" LowerLimit="435.000" UpperLimit="565.000" Units="Hz" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:57:00.757+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="SPK_SPL" Status="Pass" TestTime="18.609">
+<Measurements>
+<MeasurementData Name=" 500" Status="Pass" Result="103.060" LowerLimit="95.000" UpperLimit="108.000" Units="dBSPL" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:57:00.758+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="SPK_THD" Status="Pass" TestTime="18.609">
+<Measurements>
+<MeasurementData Name=" 500" Status="Pass" Result="1.780" LowerLimit="0.000" UpperLimit="40.000" Units="%" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:57:00.759+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="SPK_Frequency" Status="Pass" TestTime="18.609">
+<Measurements>
+<MeasurementData Name=" 397" Status="Pass" Result="401.330" LowerLimit="332.000" UpperLimit="462.000" Units="Hz" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:57:00.760+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="SPK_SPL" Status="Pass" TestTime="18.625">
+<Measurements>
+<MeasurementData Name=" 397" Status="Pass" Result="94.960" LowerLimit="86.800" UpperLimit="99.800" Units="dBSPL" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:57:00.761+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="SPK_THD" Status="Pass" TestTime="18.625">
+<Measurements>
+<MeasurementData Name=" 397" Status="Pass" Result="3.820" LowerLimit="0.000" UpperLimit="45.000" Units="%" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:57:00.762+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="SPK_Frequency" Status="Pass" TestTime="18.625">
+<Measurements>
+<MeasurementData Name=" 315" Status="Pass" Result="316.070" LowerLimit="-88888.000" UpperLimit="88888.000" Units="Hz" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:57:00.763+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="SPK_SPL" Status="Pass" TestTime="18.625">
+<Measurements>
+<MeasurementData Name=" 315" Status="Pass" Result="88.500" LowerLimit="-88888.000" UpperLimit="88888.000" Units="dBSPL" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:57:00.764+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="SPK_THD" Status="Pass" TestTime="18.625">
+<Measurements>
+<MeasurementData Name=" 315" Status="Pass" Result="7.260" LowerLimit="0.000" UpperLimit="88888.000" Units="%" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:57:00.765+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="SPK_Frequency" Status="Pass" TestTime="18.625">
+<Measurements>
+<MeasurementData Name=" 250" Status="Pass" Result="124.390" LowerLimit="-88888.000" UpperLimit="88888.000" Units="Hz" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:57:00.766+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="SPK_SPL" Status="Pass" TestTime="18.625">
+<Measurements>
+<MeasurementData Name=" 250" Status="Pass" Result="15.390" LowerLimit="-88888.000" UpperLimit="88888.000" Units="dBSPL" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:57:00.767+08:00"/>
+</Measurements>
+</TestData>
+<TestData Name="SPK_THD" Status="Pass" TestTime="18.625">
+<Measurements>
+<MeasurementData Name=" 250" Status="Pass" Result="57.860" LowerLimit="0.000" UpperLimit="88888.000" Units="%" CompType="GTLT" LogCount="0" LogTime="2019-11-25T17:57:00.768+08:00"/>
+</Measurements>
+</TestData>
+</TestDatas>
+</TestResults>
