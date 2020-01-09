@@ -58,7 +58,13 @@ for elm in root:
 
 
 result = [e for e in result if e != '']
-#   Sweep test method for QA268, Remove list[0] that unnecessary
+'''
+============
+Sweep test method for QA268, Remove list[0] that unnecessary
+If custom don't add something like valid driver (ADB), this
+driver infomation won't display, thus no need adding 'result.pop(0)'
+============
+'''
 result.pop(0)
 result = list(map(float,result))
 totalitems = len(result) // 45
@@ -279,7 +285,7 @@ style(ax1)
 plt.title(df1_fr.index[2],loc='left', weight='bold',backgroundcolor= '#6A9F3D')
 ax1.plot(newdata['hz'],df1_fr.iloc[0,:], color='red', linestyle='-.')
 ax1.plot(newdata['hz'],df1_fr.iloc[1,:], color='red', linestyle='-.')
-ax1.plot(newdata['hz'],df1_fr.iloc[2,:], linewidth=2, marker='o')
+ax1.plot(newdata['hz'],df1_fr.iloc[2,:], linewidth=2)
 
 
 ax1a = plt.subplot(7,2,2,facecolor='#f2f2f2')
@@ -313,8 +319,7 @@ if 'df2_fr' and 'df2_thd' in locals():
     plt.title(df2_thd.index[2],loc='left', weight='bold',backgroundcolor= '#6A9F3D')
     ax2a.plot(newdata['hz'],df2_thd.iloc[0,:], color='red', linestyle='-.')
     ax2a.plot(newdata['hz'],df2_thd.iloc[1,:], color='red', linestyle='-.')
-    ax2a.plot(newdata['hz'],df2_thd.iloc[2,:], linewidth=2, marker='o')
-
+    ax2a.plot(newdata['hz'],df2_thd.iloc[2,:], linewidth=2)
 
 
 
